@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="Root.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat:wght@300&family=Poppins:wght@200&family=Rajdhani:wght@700&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">    
+    <title>clock</title>
+</head>
+
+<body>
+    <nav class="nav-bar flex flex-di-row ">
+        <div class="logo main-margine">
+            <a id="icon" href="#">Clockbar</a>
+        </div>
+        <div class="tabs flex flex-di-row main-margine">
+            <li>
+                <a class="navlink" href="clock.html">Clock</a>
+            </li>
+            <li>
+                <a class="navlink" href="#">About</a>
+            </li>
+        </div>
+    </nav>
+    <!-- clock start -->
+    <div class="clock flex my-4">
+        <h1 class="display-4">Current time Is: <span id="time"></span></h1>
+        <p class="lead font my-4">This is a simple hero unit, a simple jumbotron-style component for calling extra
+            attention
+            to
+            featured content or information</p>
+        <hr id="line">
+        <p class="font my-4">It uses utility classes for typugraphy and spacing to space content out with in the larger
+            container</p>
+        <button role="button" class="btn my-4">Learn more</button>
+    </div>
+    <script src="clock.js" ></script>
+</body>
+
+</html>
